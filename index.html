@@ -61,7 +61,7 @@
 
 <div class="w3-container">
 
-    <button onclick="accordeon('seance1')" class="w3-button w3-block w3-left-align w3-dark-grey">Séance 1 <span class="w3-tiny">(semaine 1)</span></button>
+    <button onclick="accordeon('seance1')" class="w3-button w3-block w3-left-align w3-dark-grey">Séance 1 <span class="w3-tiny">(semaine 1)</span> - Matériel informatique</button>
     <div id="seance1" class="w3-container w3-hide">
         
         <div class="w3-panel">
@@ -78,7 +78,7 @@
 
     </div>
 
-    <button onclick="accordeon('seance2')" class="w3-button w3-block w3-left-align w3-dark-grey">Séance 2 <span class="w3-tiny">(semaine 1)</span></button>
+    <button onclick="accordeon('seance2')" class="w3-button w3-block w3-left-align w3-dark-grey">Séance 2 <span class="w3-tiny">(semaine 1)</span> - LINUX - Machine virtuelle</button>
     <div id="seance2" class="w3-container w3-hide">
         
         <div class="w3-panel">
@@ -109,7 +109,7 @@
 
     </div>
 
-    <button onclick="accordeon('seance3')" class="w3-button w3-block w3-left-align w3-blue">Séance 3 <span class="w3-tiny">(semaine 2)</span></button>
+    <button onclick="accordeon('seance3')" class="w3-button w3-block w3-left-align w3-dark-gray">Séance 3 <span class="w3-tiny">(semaine 2)</span> - LINUX - Ligne de commande</button>
     <div id="seance3" class="w3-container w3-hide">
         
         <div class="w3-panel">
@@ -126,8 +126,64 @@
 
     </div>
 
-    <button onclick="accordeon('seance4')" class="w3-button w3-block w3-left-align w3-dark-grey">Séance 4 <span class="w3-tiny">(semaine 2)</span></button>
+    <button onclick="accordeon('seance4')" class="w3-button w3-block w3-left-align w3-blue">Séance 4 <span class="w3-tiny">(semaine 2)</span> - LINUX - Ligne de commande (suite)</button>
     <div id="seance4" class="w3-container w3-hide">
+        
+        <div class="w3-panel">
+            <b>Commandes à bien connaître :</b>
+        </div>
+        <div class="w3-panel w3-round w3-border w3-black w3-text-lime">
+            <div class="w3-container w3-cell w3-cell-middle">
+                <code>
+                    ls, cd, pwd, df
+                    <br>
+                    man, clear, sudo
+                    <br>
+                    touch, nano, cat, head, tail, more, less
+                    <br>
+                    mkdir, rm, mv, cp
+                    <br>
+                    grep, sort
+                    <br>
+                    date, uptime, history
+                </code>
+            </div>
+        </div>
+        
+        <div class="w3-panel">
+            <b>Autres concepts à bien connaître :</b>
+        </div>
+        <div class="w3-panel">
+            <div class="w3-container w3-cell w3-cell-middle">
+                <ul class="w3-ul w3-card w3-amber">
+                    <li><h2>Chemins</h2></li>
+                    <li>chemins absolus vs. relatifs</li>
+                    <li><code>/ </code>&nbsp; racine</li>
+                    <li><code>~ </code>&nbsp; home directory</li>
+                    <li><code>. </code>&nbsp; répertoire courant</li>
+                    <li><code>..</code>&nbsp; répertoire parent</li>
+                </ul>
+            </div>
+            <!-- <div class="w3-container w3-cell w3-cell-middle">
+                <ul class="w3-ul w3-card w3-lime">
+                    <li>[TAB] &nbsp; autocomplétion</li>
+                </ul>
+            </div> -->
+            <div class="w3-container w3-cell w3-cell-middle">
+                <ul class="w3-ul w3-card w3-lime">
+                    <li><h2>Caractères génériques</h2></li>
+                    <li><code>?</code>&nbsp; n'importe quel caractère (un seul)</li>
+                    <li><code>*</code>&nbsp;  n'importe quel(s) caractère(s) (n'importe combien, même zéro)</li>
+                </ul>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle">
+                <ul class="w3-ul w3-card w3-amber">
+                    <li><h2>Pipeline</h2></li>
+                    <li><code>></code>&nbsp; pour « domper » dans un fichier</li>
+                    <li><code>|</code>&nbsp; pour passer à une autre commande</li>
+                </ul>
+            </div>
+        </div>
         
         <div class="w3-panel">
             <div class="w3-container w3-cell w3-cell-middle">
