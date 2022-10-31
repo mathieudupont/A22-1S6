@@ -1,0 +1,5 @@
+# Exemple de configuration netplan utilisant dhcp
+network:
+  version: 2
+  renderer: NetworkManager
+# Supprimer la ligne renderer si on veut utiliser le service systemd-networkd
